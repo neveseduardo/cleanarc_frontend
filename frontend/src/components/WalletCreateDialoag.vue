@@ -113,7 +113,7 @@
 import { useDebounce } from '@/composables/debounce';
 import { useNotify } from '@/composables/notify';
 import { useValidation } from '@/composables/validation';
-import { Wallet } from '@/core/models/Wallet';
+import { Wallet } from '@/domains/wallet/models/Wallet';
 import { useWalletStore } from '@/store/walletStore';
 import { VALIDATION_MESSAGES } from '@/utils/constants';
 import { convertAmount } from '@/utils/methods';

@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosResponse, type AxiosInstance, type InternalAxiosRequestConfig } from 'axios';
-import { HttpClient } from './HttpClient';
+import { HttpClient } from '../ports/HttpClient';
 
-export class AxiosHttpClient implements HttpClient {
+export class WalletHttpService implements HttpClient {
 	private instance: AxiosInstance;
 
 	constructor(baseURL: string) {

@@ -39,7 +39,7 @@
 
 <script setup lang="ts">
 import { useNotify } from '@/composables/notify';
-import { Wallet } from '@/core/models/Wallet';
+import { Wallet } from '@/domains/wallet/models/Wallet';
 import { useWalletStore } from '@/store/walletStore';
 
 const store = useWalletStore();

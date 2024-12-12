@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import { useWalletStore } from '@/store/walletStore';
-import { IWallet } from './core/models/Wallet';
+import { IWallet } from './domains/wallet/models/Wallet';
 
 const store = useWalletStore();
 

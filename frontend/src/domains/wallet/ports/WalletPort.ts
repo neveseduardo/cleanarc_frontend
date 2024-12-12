@@ -1,4 +1,4 @@
-import { IWallet } from '@/core/models/Wallet';
+import { IWallet } from '@/domains/wallet/models/Wallet';
 
 export interface WalletPort {
 	fetchAll(params?: Record<string, any>): Promise<{ data: IWallet[], pagination: any }>;

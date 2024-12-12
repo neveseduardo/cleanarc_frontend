@@ -10,7 +10,7 @@
 			class="w-full"
 			paginator
 			:value="store.collection"
-			:rows="10"
+			:rows="5"
 			:rows-per-page-options="[5, 10, 20, 50, 100]"
 		>
 			<Column
@@ -85,7 +85,7 @@
 <script setup lang="ts">
 import { convertAmountBTC, formatCurrency } from '@/utils/methods';
 import { useWalletStore } from '@/store/walletStore';
-import { IWallet } from '@/core/models/Wallet';
+import { IWallet } from '@/domains/wallet/models/Wallet';
 import { Icon } from '@iconify/vue';
 
 const store = useWalletStore();

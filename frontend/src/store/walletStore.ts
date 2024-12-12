@@ -1,6 +1,6 @@
-import { WalletApiAdapter } from '@/adapters/WalletApiAdapter';
-import { IWallet } from '@/core/models/Wallet';
-import { WalletPort } from '@/core/ports/WalletPort';
+import { WalletApiAdapter } from '@/domains/wallet/adapters/WalletApiAdapter';
+import { IWallet } from '@/domains/wallet/models/Wallet';
+import { WalletPort } from '@/domains/wallet/ports/WalletPort';
 import { defineStore } from 'pinia';
 
 type WalletState = {
